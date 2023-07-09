@@ -1,0 +1,96 @@
+body{
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 5px;
+    height: 100vh;
+    background: linear-gradient(cyan, blue);
+}
+h1{
+    margin: auto;
+    text-align: center;
+    border-bottom: 5px solid black;
+    font-size: 2.5em;
+    width: 90%;
+}
+.m{
+    width: 80%;
+    margin: auto;
+}
+.music{
+    width: 25%;
+    height: 25vh;
+    margin: 5px 5px;
+    font-size: 4.5em;
+    border-radius: 50px;
+    border: 5px solid black;
+    font-size: 2.2em;
+}
+@media (min-width: 768px){
+    h1{
+        font-size: 4.1em;
+    }
+    .m{
+        width: 60%;
+    }
+    .music{
+        width: 30%;
+        height: 25vh;
+        margin: 5px 5px;
+        font-size: 8em;
+    }
+}
+#m1{
+    background-color: red;
+    color: white;
+}
+#m2{
+    background-color: black;
+    color: white;
+}
+#m3{
+    background-color: grey;
+    color: white;
+}
+#m4{
+    background-color: brown;
+    color: white;
+}
+#m5{
+    background-color: pink;
+    color: white;
+}
+#m6{
+    background-color: green;
+    color: white;
+}
+#m7{
+    background-color: blue;
+    color: white;
+}
+#m8{
+    background-color: purple;
+    color: white;
+}
+#m9{
+    background-color: yellow;
+    color: black;
+}
+.music:active{
+    border: 5px solid yellow;
+}
+
+@media (min-width: 100px) and (max-width: 280px){
+    h1{
+        font-size: 1.5em;
+    }
+    .m{
+        width: 100%;
+    }
+    .music{
+        width: 25%;
+        height: 40px;
+        margin: 2px 2px;
+        font-size: 0.7em;
+    }
+}
+
